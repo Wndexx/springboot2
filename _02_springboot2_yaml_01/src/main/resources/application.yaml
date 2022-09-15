@@ -1,0 +1,32 @@
+person:
+  userName: zhangsan \n lisi
+  boss: true
+  birth: 1990/10/11
+  age: 30
+  interests:
+    - 吃饭
+    - 睡觉
+    - 敲代码
+  animal: [ 猫咪, 狗狗, 兔兔 ]
+  score:
+    english: 50
+    math: 20
+  salarys:
+    - 111111.11
+    - 222222.22
+  pet:
+    name: tom
+    weight: 19.99
+  allPets:
+    sick:
+      - { name: c1, weight: 11.11 }
+      - name: c2
+        weight: 22.22
+      - name: c3
+        weight: 33.33
+    health: [ { name: c4, weight: 44.44 },{ name: c5, weight: 55.55 } ]
+
+
+
+#  score: { english: 50, math: 20 }
+#  interests: [ 吃饭, 睡觉, 敲代码 ]

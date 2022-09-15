@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "person.pet.name",
+      "type": "java.lang.String",
+      "sourceType": "com.wndex.boot.bean.Pet"
+    },
+    {
+      "name": "person.pet.weight",
+      "type": "java.lang.String",
+      "sourceType": "com.wndex.boot.bean.Pet"
+    }
+  ]
+}
