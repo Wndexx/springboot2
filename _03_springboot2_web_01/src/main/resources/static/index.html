@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>欢迎页</title>
+    </head>
+    <body>
+        <h1>欢迎页面！</h1>
+        测试 REST 风格
+        <form action="user" method="get">
+            <input type="submit" value="REST-GET 提交">
+        </form>
+
+        <form action="user" method="post">
+            <input type="submit" value="REST-POST 提交">
+        </form>
+
+        <form action="user" method="post">
+            <input type="hidden" name="_m" value="put">
+            <input type="submit" value="REST-PUT 提交">
+        </form>
+
+        <form action="user" method="post">
+            <input type="hidden" name="_m" value="delete">
+            <input type="submit" value="REST-DELETE 提交">
+        </form>
+
+        <hr>
+
+        <form action="requestBody" method="post">
+            <input type="text" name="username" value="张三">
+            <input type="text" name="age" value="18">
+            <input type="submit" value="提交">
+        </form>
+
+        <hr>
+
+        <form action="person" method="post">
+            <input type="text" name="userName" value="张三"> <br>
+            <input type="text" name="age" value="18"> <br>
+            <input type="text" name="birth" value="2012/12/14"> <br>
+            <!--<input type="text" name="pet.name" value="tom"> <br>-->
+            <!--<input type="text" name="pet.age" value="2"> <br>-->
+            <input type="text" name="pet" value="tom&2">
+            <input type="submit" value="提交">
+        </form>
+    </body>
+</html>
